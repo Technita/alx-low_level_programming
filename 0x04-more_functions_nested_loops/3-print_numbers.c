@@ -1,19 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 
-int _putchar(char c);
-
+/**
+ * print_numbers - prints numbers between 0 to 9.
+ * Return: no return.
+ */
 void print_numbers(void)
 {
-    char num;
+	int ch;
 
-    for (num = '0'; num <= '9'; num++)
-    {
-        _putchar(num);
-    }
-
-    _putchar('\n');
+	for (ch = 48; ch < 58; ch++)
+	{
+		_putchar(ch);
+	}
+	_putchar('\n');
 }
-
-/* The _putchar function implementation is assumed to be available elsewhere. */
-
 
