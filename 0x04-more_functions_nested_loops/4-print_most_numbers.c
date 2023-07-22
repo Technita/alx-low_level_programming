@@ -5,7 +5,8 @@
  * except 2 and 4
  */
 
-void print _most_numbers(void)
+
+void print_most_numbers(void)
 {
 int num;
 for (num == 0; num <= 9; num++)
